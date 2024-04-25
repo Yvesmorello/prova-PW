@@ -1,0 +1,80 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #0074d9;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    gap:16px
+}
+
+header h2{
+    font-size: 13px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+main {
+    display: grid;
+  }
+  
+li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 11px;
+    color: #333;
+}
+
+li a:hover{
+    opacity: 0.8;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin-top: 10px;
+}
+footer h1{
+    font-size: 16px;
+}
+
